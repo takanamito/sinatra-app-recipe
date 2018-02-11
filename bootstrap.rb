@@ -1,0 +1,7 @@
+include_recipe 'cookbooks/initialize'
+include_recipe 'cookbooks/tmux'
+include_recipe 'cookbooks/rbenv'
+include_recipe 'cookbooks/nginx'
+include_recipe 'cookbooks/mysql'
+include_recipe 'cookbooks/memcached'
+include_recipe 'cookbooks/redis'
